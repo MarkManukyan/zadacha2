@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1774172367799" clover="3.2.0">
+  <project timestamp="1774172367799" name="All files">
+    <metrics statements="6" coveredstatements="6" conditionals="5" coveredconditionals="5" methods="2" coveredmethods="2" elements="13" coveredelements="13" complexity="0" loc="6" ncloc="6" packages="1" files="1" classes="1"/>
+    <file name="extractSpecialAttacks.js" path="C:\Users\Mark\Desktop\задание\extract-special-attacks\src\extractSpecialAttacks.js">
+      <metrics statements="6" coveredstatements="6" conditionals="5" coveredconditionals="5" methods="2" coveredmethods="2"/>
+      <line num="2" count="4" type="cond" truecount="4" falsecount="0"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="6" count="3" type="stmt"/>
+      <line num="12" count="4" type="stmt"/>
+      <line num="14" count="4" type="stmt"/>
+      <line num="18" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>
