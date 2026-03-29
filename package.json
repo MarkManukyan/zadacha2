@@ -1,16 +1,40 @@
 {
+<<<<<<< HEAD
   "name": "character-attacks-project",
+=======
+  "name": "extract-special-attacks",
+>>>>>>> 6f2a4354c02fe154b7bcef46f77b8a116254b8b3
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+<<<<<<< HEAD
     "test": "jest --coverage"
+=======
+    "build": "webpack",
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "lint": "eslint src/**/*.js tests/**/*.js"
+>>>>>>> 6f2a4354c02fe154b7bcef46f77b8a116254b8b3
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
+<<<<<<< HEAD
     "jest": "^30.3.0"
   }
 }
+=======
+    "@babel/core": "^7.29.0",
+    "@babel/preset-env": "^7.29.2",
+    "babel-jest": "^30.3.0",
+    "babel-loader": "^10.1.1",
+    "eslint": "^10.1.0",
+    "jest": "^30.3.0",
+    "webpack": "^5.105.4",
+    "webpack-cli": "^7.0.2"
+  }
+}
+>>>>>>> 6f2a4354c02fe154b7bcef46f77b8a116254b8b3

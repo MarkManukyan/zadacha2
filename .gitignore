@@ -1,5 +1,15 @@
 node_modules/
+<<<<<<< HEAD
 coverage/
 *.log
 .DS_Store
 Thumbs.db
+=======
+dist/
+.DS_Store
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+.env
+>>>>>>> 6f2a4354c02fe154b7bcef46f77b8a116254b8b3
