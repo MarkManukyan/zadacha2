@@ -1,27 +1,15 @@
+function extractSpecialAttacks(character) {
+  // Проверяем, существует ли special и является ли массивом
+  if (!character.special || !Array.isArray(character.special)) {
+    return [];
+  }
 
-function extractSpecialAttacks({ special }) {
-    return special.map(({ id, name, icon, description = 'Описание недоступно' }) => ({
-        id,
-        name,
-        description,
-        icon
-    }));
-    function extractSpecialAttacks(character) {
-        if (!character.special || !Array.isArray(character.special)) {
-            return [];
-        }
-
-        return character.special.map((attack) => {
-            const {
-                id,
-                name,
-                icon,
-                description = 'Описание недоступно'
-            } = attack;
-
-            return { id, name, icon, description };
-        });
-    }
+  return character.special.map(({ id, name, icon, description = 'Описание недоступно' }) => ({
+    id,
+    name,
+    description,
+    icon,
+  }));
 }
 
 module.exports = extractSpecialAttacks;
